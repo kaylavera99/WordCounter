@@ -12,12 +12,7 @@ def getVowelCount(phrase):
 def main():
     print("This program counts the number of vowels in an input phrase")
     inputPhrase = getInputPhrase()
-    
     totalVowels = getVowelCount(inputPhrase)
-
-
-   
-
     
     print("Total vowels in your phrase: {}".format(totalVowels))
 
